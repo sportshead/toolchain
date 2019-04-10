@@ -121,7 +121,6 @@ clean: $(addprefix clean-,$(LIBRARIES)) clean-devlib clean-ce clean-std clean-st
 #----------------------------
 # tool rules
 #----------------------------
-$(FASMG_EZ80): $(FASMG)
 $(FASMG):
 	$(MAKE) -C $(FASMGDIR)
 $(CONVBIN):
